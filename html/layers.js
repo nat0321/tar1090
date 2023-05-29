@@ -591,6 +591,7 @@ function createBaseLayers() {
     
     custom_layers.push(createGeoJsonLayer('UND Practice Areas w/Labels', 'undpal', 'geojson/undpal.geojson', 'rgba(52, 50, 168, 0.3)', 'rgba(52, 50, 168, 1)', false));
     custom_layers.push(createGeoJsonLayer('UND Practice Areas', 'undpa', 'geojson/undpa.geojson', 'rgba(52, 50, 168, 0.3)', 'rgba(52, 50, 168, 1)', false));
+    custom_layers.push(createGeoJsonLayer('UND Reporting Points', 'undrp', 'geojson/undrp.geojson', 'rgba(52, 50, 168, 0.3)', 'rgba(52, 50, 168, 1)', true));
 
     if (uk_advisory) {
         europe.push(createGeoJsonLayer('uka_airports', 'uka_airports', 'geojson/uk_advisory/airports.geojson', 'rgba(255, 255, 255, 1)', 'rgba(255, 255, 255, 1)'));
