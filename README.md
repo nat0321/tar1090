@@ -1,5 +1,9 @@
 # tar1090
 
+```
+sudo bash -c "$(wget -O - https://raw.githubusercontent.com/nat0321/tar1090/master/readsb-install.sh)"
+sudo reboot
+```
 
 ![Screenshot1](https://raw.githubusercontent.com/wiedehopf/tar1090/screenshots/screenshot3.png)
 
