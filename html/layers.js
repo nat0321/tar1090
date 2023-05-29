@@ -589,7 +589,7 @@ function createBaseLayers() {
 
     us.push(createGeoJsonLayer('US ARTCC Boundaries', 'usartccboundaries', 'geojson/US_ARTCC_boundaries.geojson', 'rgba(255, 0, 255, 0.3)', 'rgba(255, 0, 255, 1)', false));
     
-    us.push(createGeoJsonLayer('UND Practice Areas w/Lables', 'undpal', 'geojson/undpal.geojson', 'rgba(52, 50, 168, 0.3)', 'rgba(52, 50, 168, 1)', false));
+    us.push(createGeoJsonLayer('UND Practice Areas w/Labels', 'undpal', 'geojson/undpal.geojson', 'rgba(52, 50, 168, 0.3)', 'rgba(52, 50, 168, 1)', false));
     us.push(createGeoJsonLayer('UND Practice Areas', 'undpa', 'geojson/undpa.geojson', 'rgba(52, 50, 168, 0.3)', 'rgba(52, 50, 168, 1)', false));
 
     if (uk_advisory) {
