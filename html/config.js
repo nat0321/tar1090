@@ -22,8 +22,8 @@
 // degrees.
 
 // Default center of the map.
-//DefaultCenterLat = 45.0;
-//DefaultCenterLon = 9.0;
+DefaultCenterLat = 47.9;
+DefaultCenterLon = -97.1;
 // The google maps zoom level, 0 - 16, lower is further out
 //DefaultZoomLvl   = 7;
 
