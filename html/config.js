@@ -184,7 +184,7 @@ ColorByAlt = {
 //SiteCirclesLineDash = [5, 5]; // null - solid line, [5, 5] - dashed line with 5 pixel lines and spaces in between
 
 // Controls page title, righthand pane when nothing is selected
-//PageName = "tar1090";
+PageName = "UND ADS-B Network";
 
 // Show country flags by ICAO addresses?
 //ShowFlags = true;
