@@ -22,8 +22,8 @@
 // degrees.
 
 // Default center of the map.
-DefaultCenterLat = 47.9;
-DefaultCenterLon = -97.1;
+//DefaultCenterLat = 47.9;
+//DefaultCenterLon = -97.1;
 // The google maps zoom level, 0 - 16, lower is further out
 //DefaultZoomLvl   = 7;
 
@@ -184,7 +184,7 @@ ColorByAlt = {
 //SiteCirclesLineDash = [5, 5]; // null - solid line, [5, 5] - dashed line with 5 pixel lines and spaces in between
 
 // Controls page title, righthand pane when nothing is selected
-PageName = "UND ADS-B Network";
+//PageName = "UND ADS-B Network";
 
 // Show country flags by ICAO addresses?
 //ShowFlags = true;
