@@ -1608,6 +1608,13 @@ jQuery('#selected_altitude_geom1')
             return;
         }
     }
+    if (imageConfigLink != "") {
+        let host = window.location.hostname;
+        let configLink = imageConfigLink.replace('HOSTNAME', host);
+        jQuery('#imageConfigLink').attr('href',configLink)
+        jQuery('#imageConfigLink').text(imageConfigText)
+        jQuery('#imageConfigHeader').show();
+    }
 }
 
 function initLegend(colors) {
@@ -6575,7 +6582,7 @@ function drawUpintheair() {
         let color = range_outline_color;
         if (range_outline_colored_by_altitude) {
             let colorArr = altitudeColor(altitude);
-            color = 'hsl(' + colorArr[0].toFixed(0) + ',' + colorArr[1].toFixed(0) + '%,' + colorArr[2].toFixed(0) + '%)';
+            color = 'hsla(' + colorArr[0].toFixed(0) + ',' + colorArr[1].toFixed(0) + '%,' + colorArr[2].toFixed(0) + '%,' + range_outline_alpha + ')';
         }
         let outlineStyle = new ol.style.Style({
             fill: null,
